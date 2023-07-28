@@ -10,10 +10,6 @@ def signin_view(request):
         email = request.POST["email"]
         password = request.POST["password"]
         user = auth.authenticate(email=email, password=password)
-        j = CustomUser.objects.get(email = "josephmiracle119@gmail.com")
-        j.set_password("miracle")
-        j.save()
-
         if user is not None:
             auth.login(request, user)
             return redirect("success")
