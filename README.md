@@ -4,7 +4,7 @@ This repository demonstrates how to implement social authentication using Google
 
 ## Features
 
-- Sign in with Google: Users can sign in to your Django application using their Google accounts.
+- Sign in with Google: Users can sign in to your Django applications using their Google accounts.
 
 - Sign up with Google: New users can create an account by signing up with their Google accounts.
 
