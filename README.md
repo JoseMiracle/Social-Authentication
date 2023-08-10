@@ -106,5 +106,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Django: https://www.djangoproject.com/
 - Django allauth: https://django-allauth.readthedocs.io/
 - Google Developer Console: https://console.developers.google.com/
-
----
